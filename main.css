@@ -1,0 +1,119 @@
+body {
+    background-color: whitesmoke;
+  }
+  
+  h1{
+      color: #ff4400;
+      font-size: 35px;
+  }
+  
+    h1{
+      color: red !important;
+      font-size: 35px;
+    }
+  
+    img{
+      height: 425px !important;
+      border-style: dashed !important;
+      border-width: 5px !important;
+      border-color: yellow !important;
+      border-radius: 30px !important;
+      padding: 10px !important;
+    }
+    
+    p{
+      color: white;
+      font-size: 20px;
+      font-family: 'Akaya Telivigala', cursive !important;
+    }
+  
+    button {
+      background-color: greenyellow;
+      border-radius: 5px;
+      padding: 5px;
+    }
+  
+    body {
+      height: fit-content !important;
+    }
+  
+  body {
+      margin-bottom: 15px;
+  }
+  
+  /* Style The Dropdown Button */
+  .dropbtn {
+    background-color: #00ffd5;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    position: sticky;
+    margin-left: 50px;
+    float: right;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    height: auto;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  
+  marquee {
+    width: 70%;
+  }
+  
+  h1, h3 {
+    font-family: 'Petit Formal Script', cursive;
+    color: red;
+    font-weight: bolder;
+  }
+  hr {
+    height: 8px !important;
+    background-color: whitesmoke !important;
+    border-top: 8px dashed red !important;
+  }
+  
+  .navbar-inverse {
+    background-color: lavender;
+  }
+  
+  a, button {
+    text-shadow: .5px .5px black;
+  }
+  
+  .chapter {
+    margin: 10px;
+  }
